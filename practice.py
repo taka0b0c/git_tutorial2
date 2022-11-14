@@ -1,0 +1,23 @@
+import pyautogui
+import time
+import pyperclip
+pyautogui.moveTo(759,877)
+pyautogui.click(759,877)
+time.sleep(5)
+pyautogui.moveTo(597,107)
+pyautogui.click(597,107)
+time.sleep(10)
+pyautogui.click(93,628)
+pyautogui.moveTo(93,628)
+time.sleep(5)
+pyautogui.moveTo(278,222)
+pyautogui.click(278,222)
+time.sleep(5)
+pyautogui.moveTo(550,784)
+pyautogui.click(550,784)
+time.sleep(5)
+pyperclip.copy("pyautoguiで送付しています")
+pyautogui.hotkey('ctrl', 'v')
+time.sleep(5)
+pyautogui.moveTo(891,834)
+pyautogui.click(891,834)
