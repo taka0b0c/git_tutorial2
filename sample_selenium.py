@@ -5,9 +5,8 @@ import time
 
 
 class access:
-  def __init__(self):
-      self = webdriver.Chrome('chromedriver.exe')
-      driver.get("https://docs.python.org/ja/3/")
+    webdriver.Chrome('chromedriver.exe')
+    driver.get("https://docs.python.org/ja/3/")
       
 
   def element_action(self,xpath, action, send_param):
