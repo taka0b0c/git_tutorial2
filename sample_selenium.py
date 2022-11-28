@@ -4,9 +4,10 @@ import time
 
 
 
-class access:
-    webdriver.Chrome('chromedriver.exe')
-    driver.get("https://docs.python.org/ja/3/")
+class Access:
+    def practice(self):
+        webdriver.Chrome('chromedriver.exe')
+        driver.get("https://docs.python.org/ja/3/")
       
 
   def element_action(self,xpath, action, send_param):
@@ -15,3 +16,6 @@ class access:
          driver_element.click()
       else:
          driver_element.send_keys(send_param)
+
+access = Access()
+access.practice,element_action
