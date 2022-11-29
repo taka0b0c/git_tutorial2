@@ -6,8 +6,8 @@ import time
 
 class Access:
     def practice(self):
-        webdriver.Chrome('chromedriver.exe')
-        driver.get("https://docs.python.org/ja/3/")
+        self.webdriver.Chrome('chromedriver.exe')
+        self.driver.get("https://docs.python.org/ja/3/")
       
 
   def element_action(self,xpath, action, send_param):
